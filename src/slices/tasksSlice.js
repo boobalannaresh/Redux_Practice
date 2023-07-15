@@ -24,7 +24,7 @@ reducers:{
     removeTaskFromList:(state, action) => {
         state.tasksList = state.tasksList.filter((task) => task.id !== action.payload.id)
     },
-    updateTaskInList:(state, action ) =>{ 
+    updateTaskInList:(state, action ) => { 
         state.tasksList = state.tasksList.map((task) => task.id === action.payload.id ? action.payload : task)
     },
     setSelectedTask: (state, action) => {

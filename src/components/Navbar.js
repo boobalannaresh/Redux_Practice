@@ -32,7 +32,7 @@ export  function Navbar() {
 return (
   <div>
       <h1 className='text-center my-4 text-primary'> Project Management</h1>
-      <p className='text-center lead'>{`Currently ${tasksList.length} task(s) pending`}</p>
+      <p className='text-center lead'>{`Currently ${tasksList.length} task(s) pending List`}</p>
   </div>
 )
 }
